@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background: rosybrown;
+    padding: 20px;
+}
+.clearfix{
+    clear: both;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Inconsolata', monospace;
+}
+p,a{
+    font-family: 'Hina Mincho', serif;
+}
+.h-img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    float: left;
+}
+.h-bio{
+    float: left;
+    padding: 35px;
+}
+.h-bio h1,h3{
+    color:skyblue ;
+    
+}
+.h-contact{
+    float: right;
+    padding: 20px;
+}
+.h-contact a{
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: skyblue;
+    transition: .6s;
+}
+.h-contact a:hover{
+    color: salmon;
+    text-decoration: underline;
+}
+hr{
+    border: 2px solid black;
+    margin-top: 30px;
+}
+.personal{
+    margin-top: 20px;
+}
+.information{
+    float: left;
+    width: 35%;
+}
+.info-details{
+    float: left;
+    width: 65%;
+}
